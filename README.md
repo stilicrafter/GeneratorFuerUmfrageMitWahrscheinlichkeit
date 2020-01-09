@@ -1,0 +1,2 @@
+# GeneratorFuerUmfrageMitWahrscheinlichkeit
+Für den Schulunterricht
