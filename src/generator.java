@@ -75,11 +75,125 @@ public class generator {
 			System.out.print(";");
 			
 			}
+	
+	
+	
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 20)
+					System.out.print("1");
+				if (b >= 21 && b <= 56)
+					System.out.print("2");
+				if (b >= 57 && b <= 79)
+					System.out.print("3");
+				if (b >= 80 && b <= 88)
+					System.out.print("4");
+				if (b >= 89 && b <= 94)
+					System.out.print("5");
+				if (b >= 95 && b <= 101)
+					System.out.print("6");
+	
+				System.out.print(";");
+				
+				System.out.print("Nein;");
 			
 			
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 80)
+					System.out.print("Nein;");
+				if (b >= 21 && b <= 102)
+					System.out.print("Ja;");
+				
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 20)
+					System.out.print("1");
+				if (b >= 21 && b <= 56)
+					System.out.print("2");
+				if (b >= 57 && b <= 79)
+					System.out.print("3");
+				if (b >= 80 && b <= 88)
+					System.out.print("4");
+				if (b >= 89 && b <= 94)
+					System.out.print("5");
+				if (b >= 95 && b <= 101)
+					System.out.print("6");
+				System.out.print(";");
 			
 			
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 20)
+					System.out.print("1");
+				if (b >= 21 && b <= 56)
+					System.out.print("2");
+				if (b >= 57 && b <= 79)
+					System.out.print("3");
+				if (b >= 80 && b <= 88)
+					System.out.print("4");
+				if (b >= 89 && b <= 94)
+					System.out.print("5");
+				if (b >= 95 && b <= 101)
+					System.out.print("6");
+				System.out.print(";");
+				
+				
+				b = rand.nextInt(20);
+				if (b >= 0 && b <= 17)
+					System.out.print("Nein");
+				if (b >= 18 && b <= 56)
+					System.out.print("Ja");
+				System.out.print(";");
 			
+				System.out.print(";");
+				
+				for (int j = 0; j < 3; j++) {
+					
+				
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 20)
+					System.out.print("Oft");
+				if (b >= 21 && b <= 79)
+					System.out.print("Gelegentlich");
+				if (b >= 80 && b <= 102)
+					System.out.print("Selten");
+				System.out.print(";");
+				
+				}
+				
+				//alter 
+				
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 85)
+					System.out.print("Männlich");
+				if (b >= 86 && b <= 102)
+					System.out.print("Weiblich");
+				
+				System.out.print(";");
+			
+				
+				
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 20)
+					System.out.print("<3.000");
+				if (b >= 21 && b <= 79)
+					System.out.print("<2.000");
+				if (b >= 80 && b <= 90)
+					System.out.print("<1.000");
+				if (b >= 91 && b <= 102)
+					System.out.print("<4.000");
+				System.out.print(";");
+				
+				
+				System.out.print("Nein;");
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 			
 			try {
 				Thread.sleep(5);
