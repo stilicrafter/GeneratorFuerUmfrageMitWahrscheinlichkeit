@@ -8,7 +8,7 @@ public class generator {
 		Random rand = new Random();
 		int b = 0;
 
-		for (int i = 0; i < 30; i++) {
+		for (int i = 0; i < 126; i++) {
 			int a = rand.nextInt(100);
 
 			if (a >= 0 && a <= 30)
@@ -76,6 +76,8 @@ public class generator {
 			
 			}
 	
+	for (int j = 0; j < 4; j++) {
+		
 	
 	
 				b = rand.nextInt(100);
@@ -93,14 +95,16 @@ public class generator {
 					System.out.print("6");
 	
 				System.out.print(";");
-				
-				System.out.print("Nein;");
+	}
+	
+	
+				System.out.print("Nein;;");
 			
 			
 				b = rand.nextInt(100);
 				if (b >= 0 && b <= 80)
 					System.out.print("Nein;");
-				if (b >= 21 && b <= 102)
+				if (b >= 81 && b <= 102)
 					System.out.print("Ja;");
 				
 				b = rand.nextInt(100);
@@ -160,6 +164,23 @@ public class generator {
 				
 				//alter 
 				
+				b = rand.nextInt(100);
+				if (b >= 0 && b <= 40)
+					System.out.print("21-25");
+				if (b >= 41 && b <= 66)
+					System.out.print("31-35");
+				if (b >= 67 && b <= 79)
+					System.out.print("26-30");
+				if (b >= 80 && b <= 88)
+					System.out.print("41-45");
+				if (b >= 89 && b <= 94)
+					System.out.print("51-55");
+				if (b >= 95 && b <= 101)
+					System.out.print("21-25");
+				System.out.print(";");
+				
+				
+				//alter ende
 				b = rand.nextInt(100);
 				if (b >= 0 && b <= 85)
 					System.out.print("Männlich");
